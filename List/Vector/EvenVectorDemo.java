@@ -4,7 +4,7 @@ Vector creation
 Adding elements
 Logical condition: num % 2 == 0 */
 //  WAP to store 5 integer values in Collection or Vector and calculate its sum.
-import java.util.*;
+import java.util.*;=
 
 class EvenVectorDemo{
 	
@@ -16,9 +16,10 @@ class EvenVectorDemo{
 		v.add(3);
 		v.add(4);
 		v.add(5);
+		v.add(6);
 		
 		Iterator i = v.iterator();
-		int sum =0;
+		int sum = 0;
 		while(i.hasNext()){
 			
 			Object obj = i.next();
